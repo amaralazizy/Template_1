@@ -29,7 +29,7 @@ header {
   align-items: center;
 }
 
-header nav ul li a{
+header nav ul li a {
   text-decoration: none;
   color: black;
 }
@@ -73,8 +73,7 @@ header nav {
   -o-transition: width 0.5s;
 }
 
-.links:hover
-.list-dashes {
+.links:hover .list-dashes {
   width: 30px;
 }
 
@@ -161,7 +160,7 @@ header nav {
 }
 
 .landing {
-  background-image: url("https://elzerowebschool.github.io/HTML_And_CSS_Template_One/images/landing.jpg");
+  background-image: url(../assets/mountains\ _compressed.jpg);
   background-size: cover;
   width: 100%;
   height: calc(100vh - 64px);
@@ -331,7 +330,6 @@ header nav {
   }
 }
 
-
 .services-body {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -378,8 +376,6 @@ header nav {
     gap: 10px;
   }
 }
-
-
 
 .service.one {
   grid-area: 1 / 1 / 2 / 2;
@@ -466,7 +462,6 @@ header nav {
   max-width: 360px;
   height: fit-content;
 }
-
 
 @media (max-width: 576px) {
   .portfolio .content {
