@@ -160,7 +160,7 @@ header nav {
 }
 
 .landing {
-  background-image: url(../assets/mountains\ _compressed.jpg);
+  background-image: url("../assets/mountains_compressed.jpg");
   background-size: cover;
   width: 100%;
   height: calc(100vh - 64px);
